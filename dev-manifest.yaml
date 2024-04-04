@@ -15,7 +15,7 @@ spec:
       containers:
         - name: luke-api
         # This image is going to be the path to the image you create in a future step
-          image: us-docker.pkg.dev/cit-262-personal/luke-api/api-test
+          image: us-docker.pkg.dev/cit-262-personal/luke-api/api-tests
           ports:
             - containerPort: 3000
           resources:
